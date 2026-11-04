@@ -6,6 +6,7 @@ Progetto di gruppo per GPOI: redazione del Business Plan di una startup ICT.
 
 **Idea scelta:** piattaforma per affittare stanze, studi e appartamenti a ore per suonare, studiare, stare insieme o lavorare a progetti.
 
+- [AGENTS.md](AGENTS.md): regole del progetto per tutti (persone, Codex e Claude). Da leggere prima di ogni attività.
 - [IDEA.md](IDEA.md): descrizione dell'idea e delle 11 funzionalità.
 - [RIASSUNTO.md](RIASSUNTO.md): riassunto della traccia e della struttura richiesta.
 - [CHECKLIST.md](CHECKLIST.md): elenco delle attività e dei contenuti da completare.
