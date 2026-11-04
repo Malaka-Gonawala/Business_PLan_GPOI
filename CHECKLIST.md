@@ -4,8 +4,8 @@ Spuntate le voci man mano che vengono completate (`- [x]`) e aggiungete accanto 
 
 ## 0. Preparazione del gruppo
 
-- [x] Scegliere l'idea di startup (prodotto software, piattaforma web/mobile o servizio B2B/B2C): piattaforma SaaS per autoscuole
-- [x] Decidere il nome della startup (proposta: Semaforo Verde S.r.l.)
+- [x] Scegliere l'idea di startup (prodotto software, piattaforma web/mobile o servizio B2B/B2C): piattaforma per imparare a suonare uno strumento attraverso i videogiochi
+- [x] Decidere il nome della startup (proposta: Suonami S.r.l.)
 - [ ] Dividere le sezioni tra i membri del gruppo
 - [ ] Concordare il formato finale del documento (es. Word/PDF) e la scadenza interna
 
