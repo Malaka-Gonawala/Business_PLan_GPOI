@@ -1,5 +1,7 @@
 # Checklist del Business Plan
 
+**Scadenza: 25/11/2026**: presentazione di gruppo del lavoro svolto.
+
 Spuntate le voci man mano che vengono completate (`- [x]`) e aggiungete accanto il nome di chi se ne occupa.
 
 ## 0. Preparazione del gruppo
@@ -54,3 +56,9 @@ Spuntate le voci man mano che vengono completate (`- [x]`) e aggiungete accanto 
 - [ ] Tutte e 5 le sezioni presenti nell'ordine richiesto
 - [ ] Rilettura (grammatica, formattazione, impaginazione)
 - [ ] Esportazione del documento finale e consegna
+
+## 7. Presentazione (25/11/2026)
+
+- [ ] Preparare le slide della presentazione
+- [ ] Decidere chi presenta ciascuna sezione
+- [ ] Prova generale di gruppo prima della scadenza
