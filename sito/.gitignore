@@ -1,0 +1,8 @@
+# Ambiente virtuale di Python
+venv/
+.venv/
+# File generati da Python
+__pycache__/
+*.pyc
+# Database locale: si ricrea all'avvio, non va nel repository
+*.db

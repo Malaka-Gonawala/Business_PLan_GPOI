@@ -10,4 +10,5 @@ Progetto di gruppo per GPOI: redazione del Business Plan di una startup ICT.
 - [IDEA.md](IDEA.md): descrizione dell'idea e delle 11 funzionalità.
 - [RIASSUNTO.md](RIASSUNTO.md): riassunto della traccia e della struttura richiesta.
 - [CHECKLIST.md](CHECKLIST.md): elenco delle attività e dei contenuti da completare.
+- [sito/](sito/README.md): sito web funzionante (MVP) in Python + Flask + SQLite, con le istruzioni per avviarlo.
 - [RELAZIONE_BUSINESS_PLAN.md](RELAZIONE_BUSINESS_PLAN.md): relazione della vecchia idea (Suonami), da riscrivere sulla nuova idea.
