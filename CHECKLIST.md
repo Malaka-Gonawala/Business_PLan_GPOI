@@ -50,7 +50,7 @@ Chiunque può prendere queste voci, anche senza saper programmare e senza usare 
 - [ ] 🟢 Scegliere la città di lancio (Milano, Bologna o Roma)
 - [ ] 🟢 Decidere la forma giuridica (consigliata: Start-up Innovativa s.r.l.)
 - [ ] 🟢 Fissare i numeri chiave usati ovunque: commissione %, tariffa oraria media, prezzo dell'abbonamento, fabbisogno finanziario (tutti come *ipotesi*) — B
-- [ ] Scegliere lo stack del sito (proposta: Node.js + Express + SQLite, oppure Python + Flask + SQLite) e creare la cartella `sito/` nel repository — C
+- [x] Scegliere lo stack del sito: **Python + Flask + SQLite**, con pagine in HTML/CSS/JavaScript; creata la cartella `sito/` (si avvia con `python app.py`) — C (PR #7)
 - [ ] Spostare la vecchia relazione di Suonami in `archivio/` e creare la nuova relazione vuota con le 5 sezioni — A
 
 ## Giorni 2-3 · giovedì 19/11 e venerdì 20/11: prima stesura e base del sito
