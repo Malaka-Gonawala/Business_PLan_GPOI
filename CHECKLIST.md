@@ -1,84 +1,86 @@
 # Checklist del Business Plan
 
-**Scadenza: 25/11/2026**: presentazione di gruppo del lavoro svolto.
+**Scadenza: mercoledì 25/11/2026**: presentazione di gruppo del lavoro svolto.
 
-Spuntate le voci man mano che vengono completate (`- [x]`) e aggiungete accanto il nome di chi se ne occupa.
+> **Piano ridotto (18/11/2026):** manca una settimana. La checklist è stata ridotta all'essenziale e divisa per giorni. Ci sono due percorsi in parallelo:
+> - **Relazione** (le 5 sezioni richieste dalla traccia) e **presentazione**;
+> - **Sito web funzionante con backend**: una versione minima (MVP, *Minimum Viable Product*, cioè il prodotto più semplice che funziona davvero) della piattaforma descritta in [IDEA.md](IDEA.md).
 
-> **Nuova idea (04/11/2026):** piattaforma per affittare stanze e studi a ore (vedi [IDEA.md](IDEA.md)).
-> La relazione attuale ([RELAZIONE_BUSINESS_PLAN.md](RELAZIONE_BUSINESS_PLAN.md)) è ancora quella di Suonami e va **riscritta** sulla nuova idea: per questo le voci delle sezioni 1-6 sono state rimesse da fare.
+Spuntate le voci man mano che vengono completate (`- [x]`) e aggiungete accanto il vostro nome.
 
-## 0. Preparazione del gruppo
+## Divisione dei ruoli
 
-- [x] Scegliere l'idea di startup: piattaforma per affittare stanze, studi e appartamenti a ore (suonare, studiare, stare insieme, lavorare a progetti)
-- [x] Definire le 11 funzionalità principali (vedi [IDEA.md](IDEA.md))
+Ognuno scrive il proprio nome accanto al ruolo (giorno 1).
+
+| Ruolo | Chi | Si occupa di |
+|---|---|---|
+| **A**: relazione, parte 1 | _(nome)_ | Sezioni 1, 2 e 4, coordinamento della relazione |
+| **B**: relazione, parte 2 | _(nome)_ | Sezioni 3 e 5 (mercato e numeri) |
+| **C**: sito, backend | _(nome)_ | Server, database, API (le "porte" con cui il sito parla con il server), login |
+| **D**: sito, frontend | _(nome)_ | Pagine del sito, collegamento al backend, demo |
+
+Le slide si fanno **tutti insieme** (giorni 6 e 7): ognuno prepara le slide della propria parte.
+
+## Cosa entra nel sito (e cosa no)
+
+**Dentro (MVP):** registrazione e login; elenco degli spazi con filtri semplici (città, tipologia, prezzo); scheda dello spazio (disponibilità, tipologia, prezzo, attrezzature, livello di rumore); prenotazione a ore con controllo che la fascia oraria non sia già occupata; area host per pubblicare uno spazio; pagina "Le mie prenotazioni".
+
+**Fuori (solo descritto nella relazione e nelle slide):** pagamenti veri, assicurazione e deposito, verifica dell'identità, mappa, pagamento diviso, abbonamento, sincronizzazione del calendario, eventi della community.
+
+---
+
+## Giorno 1 · mercoledì 18/11: decisioni
+
+- [ ] Assegnare i ruoli A, B, C, D (tabella sopra)
 - [ ] Decidere il nome della startup
 - [ ] Scegliere la città di lancio (Milano, Bologna o Roma)
-- [ ] Dividere le sezioni tra i membri del gruppo
-- [ ] Concordare il formato finale del documento (es. Word/PDF) e la scadenza interna
+- [ ] Decidere la forma giuridica (consigliata: Start-up Innovativa s.r.l.)
+- [ ] Fissare i numeri chiave usati ovunque: commissione %, tariffa oraria media, prezzo dell'abbonamento, fabbisogno finanziario (tutti come *ipotesi*) — B
+- [ ] Scegliere lo stack del sito (proposta: Node.js + Express + SQLite, oppure Python + Flask + SQLite) e creare la cartella `sito/` nel repository — C
+- [ ] Spostare la vecchia relazione di Suonami in `archivio/` e creare la nuova relazione vuota con le 5 sezioni — A
 
-## 1. Executive Summary (da scrivere per ULTIMO, da mettere per PRIMO)
+## Giorni 2-3 · giovedì 19/11 e venerdì 20/11: prima stesura e base del sito
 
-- [ ] Nome della startup
-- [ ] Vision
-- [ ] Mission
-- [ ] Il problema: poche sale prove, pochi posti tranquilli per studiare, stanze vuote per gran parte della giornata
-- [ ] La soluzione: piattaforma che mette in contatto chi ha uno spazio libero con chi ne ha bisogno a ore
-- [ ] Fabbisogno finanziario: importo richiesto e come verrà usato (coerente con la sezione 5)
+**Relazione**
 
-## 2. Descrizione dell'azienda e del prodotto/servizio
+- [ ] Sezione 2: forma giuridica, descrizione del prodotto, tabella delle 11 funzionalità (indicando quali sono nel sito demo), architettura tecnica (quella del sito vero) — A
+- [ ] Sezione 4: organigramma, ruoli dei soci fondatori, piano di assunzioni del primo anno — A
+- [ ] Sezione 3: target (host e ospiti), almeno 2 concorrenti con fonte, matrice di confronto, pricing model — B
 
-- [ ] Forma giuridica scelta e motivazione (consigliata: Start-up Innovativa s.r.l.)
-- [ ] Descrizione della scheda di uno spazio: disponibilità, tipologia, stato della prenotazione, prezzo
-- [ ] Descrizione delle 11 funzionalità:
-  - [ ] 1. Elenco attrezzature per ogni spazio (con noleggio extra)
-  - [ ] 2. Livello di rumore e insonorizzazione
-  - [ ] 3. Recensioni verificate da entrambe le parti e verifica dell'identità
-  - [ ] 4. Assicurazione integrata e deposito cauzionale
-  - [ ] 5. Prenotazione a ore con pacchetti scontati
-  - [ ] 6. Prenotazione immediata o con approvazione dell'host
-  - [ ] 7. Ricerca su mappa con filtri
-  - [ ] 8. Pagamento diviso tra il gruppo
-  - [ ] 9. Abbonamento mensile per utenti abituali
-  - [ ] 10. Strumenti per gli host (calendario, check-in smart, dashboard guadagni)
-  - [ ] 11. Eventi della community
-- [ ] Architettura tecnica: stack tecnologico ad alto livello (cloud, database, backend, frontend, mappe, pagamenti)
-- [ ] Schema/diagramma dell'architettura (facoltativo ma utile)
-- [ ] Innovazione tecnologica: perché siamo migliori (scalabilità, sicurezza, algoritmi proprietari)
+**Sito**
 
-## 3. Analisi di mercato e strategia di marketing
+- [ ] Database: tabelle utenti, spazi, prenotazioni, con alcuni spazi di esempio — C
+- [ ] API: registrazione/login, elenco e dettaglio spazi, creazione di uno spazio, creazione e lista prenotazioni — C
+- [ ] Pagine: home con elenco e filtri, scheda dello spazio, login/registrazione — D
 
-- [ ] Target di riferimento: host (proprietari di stanze/studi) e ospiti (musicisti, studenti, gruppi di amici, freelance)
-- [ ] Individuare almeno 2 concorrenti diretti (es. Peerspace, sale prove tradizionali, spazi di coworking)
-- [ ] Matrice di Confronto con punti di forza e debolezza rispetto ai concorrenti
-- [ ] Pricing Model scelto e motivato (commissione su ogni prenotazione + abbonamento mensile)
-- [ ] Prezzi indicativi: percentuale di commissione, tariffe orarie medie, costo dell'abbonamento
-- [ ] Strategia di lancio: una sola città e reclutamento a mano dei primi host
+## Giorni 4-5 · sabato 21/11 e domenica 22/11: completare
 
-## 4. Piano di organizzazione e risorse umane
+**Relazione**
 
-- [ ] Organigramma aziendale
-- [ ] Ruoli dei soci fondatori: CEO, CTO, Project Manager, Lead Developer
-- [ ] Piano di assunzioni del primo anno (es. esperti di marketing, sistemisti cloud, assistenza clienti)
+- [ ] Sezione 5: investimenti iniziali (CapEx), costi annuali (OpEx), ricavi per 3 anni, punto di pareggio, almeno una tabella o un grafico — B
+- [ ] Rischi principali e contromisure (rumore e condomini, affitti brevi e tasse, problema "uovo e gallina") — A
 
-## 5. Piano finanziario (economico-patrimoniale)
+**Sito**
 
-- [ ] Investimenti iniziali (CapEx): computer, server, licenze software, spese di costituzione
-- [ ] Costi operativi annuali (OpEx): stipendi, hosting/cloud, assicurazione, pubblicità (Google/Meta Ads), consulenze legali/commerciali
-- [ ] Previsione dei ricavi per i primi 3 anni (commissioni e abbonamenti)
-- [ ] Break-Even Analysis: punto di pareggio in mesi o numero di prenotazioni
-- [ ] Tabelle e/o grafici dei numeri principali
+- [ ] Prenotazione a ore con controllo delle sovrapposizioni — C
+- [ ] Pagine: prenota, "Le mie prenotazioni", area host per pubblicare uno spazio — D
+- [ ] Il sito parte con un solo comando e le istruzioni sono scritte in `sito/README.md` — C
+- [ ] Prova completa: registrazione → ricerca → prenotazione → l'host vede la prenotazione — C, D
 
-## 6. Rischi e revisione finale
+## Giorno 6 · lunedì 23/11: chiusura della relazione e slide
 
-- [ ] Rischi e contromisure: regolamenti condominiali e rumore, normativa su affitti brevi e tasse degli host, problema "uovo e gallina"
-- [ ] Executive Summary scritto dopo aver completato tutte le altre sezioni
-- [ ] Numeri coerenti tra Executive Summary, assunzioni e piano finanziario
-- [ ] Tutte e 5 le sezioni presenti nell'ordine richiesto
-- [ ] Rilettura (grammatica, formattazione, impaginazione)
-- [ ] Esportazione del documento finale e consegna
+- [ ] Sezione 1, Executive Summary (si scrive per ultimo, si mette per primo): nome, vision, mission, problema, soluzione, fabbisogno — A
+- [ ] Numeri uguali tra Executive Summary, sezione 3 e sezione 5 — B
+- [ ] Rilettura completa (italiano, formattazione) e controllo delle fonti; dati mancanti segnati con `[DA VERIFICARE]` — tutti
+- [ ] Slide: una o due per ogni sezione, più le slide del sito (screenshot e architettura) — tutti
+- [ ] Bloccare il sito: da qui solo correzioni di errori, niente funzioni nuove — C, D
 
-## 7. Presentazione (25/11/2026)
+## Giorno 7 · martedì 24/11: prova generale
 
-- [ ] Preparare le slide della presentazione
-- [ ] Decidere chi presenta ciascuna sezione
-- [ ] Prova generale di gruppo prima della scadenza
+- [ ] Esportare la relazione finale (PDF o Word) — A
+- [ ] Prova generale della presentazione con i tempi, decidendo chi presenta cosa — tutti
+- [ ] Prova della demo del sito sul computer che useremo, con un piano B (video o screenshot) se non funziona — D
+
+## Mercoledì 25/11 · presentazione
+
+- [ ] Presentazione di gruppo e demo del sito
