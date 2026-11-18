@@ -9,6 +9,7 @@ Progetto di gruppo per GPOI: redazione del Business Plan di una startup ICT.
 - [AGENTS.md](AGENTS.md): regole del progetto per tutti (persone, Codex e Claude). Da leggere prima di ogni attività.
 - [IDEA.md](IDEA.md): descrizione dell'idea e delle 11 funzionalità.
 - [RIASSUNTO.md](RIASSUNTO.md): riassunto della traccia e della struttura richiesta.
+- [DIARIO.md](DIARIO.md): diario del gruppo, dove ognuno scrive cosa ha fatto (prima la data, poi le modifiche).
 - [CHECKLIST.md](CHECKLIST.md): elenco delle attività e dei contenuti da completare.
 - [sito/](sito/README.md): sito web funzionante (MVP) in Python + Flask + SQLite, con le istruzioni per avviarlo.
 - [RELAZIONE_BUSINESS_PLAN.md](RELAZIONE_BUSINESS_PLAN.md): relazione della vecchia idea (Suonami), da riscrivere sulla nuova idea.
