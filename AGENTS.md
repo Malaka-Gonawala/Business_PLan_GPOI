@@ -37,7 +37,7 @@ Leggete le regole prima di ogni attività. Per proporre una modifica, ditelo all
 - **N7. Segnalate dubbi sulle regole ed eccezioni.** Le sessioni di Claude scrivono al Giudice. Codex e i collaboratori li scrivono nella descrizione della PR, sotto "Eccezioni alle regole".
 - **N8. Italiano chiaro, corretto e formale,** adatto a una relazione scolastica. Spiegate ogni termine inglese o tecnico la prima volta che lo usate. Non vale per `DIARIO.md` (vedi N10).
 - **N9. Le sessioni di Claude salvano nella memoria del progetto i fatti duraturi** nel momento in cui li scoprono.
-- **N10. Scrivete nel diario cosa avete fatto.** In `DIARIO.md` ognuno aggiunge una voce in fondo: **prima la data** (GG/MM/AAAA), poi le modifiche, in qualsiasi forma (paragrafo o elenco puntato). Non serve che sia scritto in modo corretto o formale. La voce va nella stessa PR del lavoro che descrive. Non si modificano né si cancellano le voci degli altri.
+- **N10. Scrivete nel diario cosa avete fatto.** In `DIARIO.md` ognuno aggiunge una voce in fondo: **prima la data** (GG/MM/AAAA) **e il proprio nome**, poi le modifiche, in qualsiasi forma (paragrafo o elenco puntato). Non serve che sia scritto in modo corretto o formale. La voce va nella stessa PR del lavoro che descrive. Non si modificano né si cancellano le voci degli altri.
 
 ## Altre
 
@@ -60,5 +60,6 @@ Eccezioni alle regole Necessarie, dalla più recente: data, chi, regola, motivo.
 
 ## Registro delle modifiche
 
+- 18/11/2026: N10 ora chiede anche il nome accanto alla data. Richiesta di Malaka.
 - 18/11/2026: aggiunta N10 (diario `DIARIO.md`, prima la data poi le modifiche, in qualsiasi forma); N8 non vale per il diario. Richiesta di Malaka.
 - 04/11/2026: prima versione approvata, scritta dal Giudice partendo dalla struttura delle regole di un altro progetto di Malaka; "Malaka" sostituito con "l'utente" su richiesta di Malaka.
